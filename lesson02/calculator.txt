@@ -1,0 +1,11 @@
+let ageInYears = 33
+let ageInDays = (ageInYears * 356)
+let ageInDecades = (ageInYears / 10)
+let ageInDogYears = (24 + (ageInYears-2) * 5)
+let currentYear = 2021
+
+console.log(`Dan is ${ageInYears} years old.`)
+console.log(`That means that he is ${ageInDays} days old!`)
+console.log(`That number looks scary.  Let\'s go the other way and call it ${ageInDecades} decades old.`)
+console.log(`That doesn't sound great either, tbh.  At least he's not a dog, or he'd be ${ageInDogYears} years old!`)
+console.log(`Based on Dan\'s age, this super clever JS calculator can determine that Dan was born in ` + (currentYear - ageInYears) + `.  Hurray, technology!`)
