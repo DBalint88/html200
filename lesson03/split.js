@@ -1,6 +1,6 @@
-let truth = 'javascript is funner than css.'
+let truth = 'javascript is funner than css.';
 
-console.log(truth)
+console.log(truth);
 
-let truthArray = truth.split(' ')
-console.log(truthArray[2])
+let truthArray = truth.split(' ');
+console.log(truthArray[2]);
